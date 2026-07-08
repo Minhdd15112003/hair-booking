@@ -1,0 +1,26 @@
+<div class="h-screen w-screen flex justify-center items-center bg-gray-100">
+    <div class="p-6 text-center">
+        <div class="flex justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4338ca" class="w-[100px] h-[100px]">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+
+
+        </div>
+        <h2 class="text-2xl font-bold text-[#4338ca]">Thanh Toán Thành Công</h2>
+        <ul class="list-group mt-4 space-y-2">
+            <li class="list-group-item">
+                <strong>Mã đặt lịch:</strong> <%=vnp_Params['vnp_OrderInfo']%>
+            </li>
+            <li class="list-group-item">
+                <strong>Số tiền:</strong> <%= (vnp_Params['vnp_Amount'] / 100).toLocaleString('vi-VN', {
+                    style: 'currency', currency: 'VND' }) %>
+            </li>
+            <li class="list-group-item">
+                <strong>Thời gian:</strong> <%= new Date().toLocaleDateString('vi-VN') %>
+            </li>
+        </ul>
+        <p class="mt-4">Cảm ơn bạn đã đặt lịch, chúng tôi rất hân hạnh được xử lý yêu cầu của bạn</p>
+    </div>
+</div>
+<!--  -->

@@ -1,0 +1,241 @@
+{
+    "appName": "GlowUp",
+    "permissions": {
+        "CAMERA": {},
+        "CONTACTS": {},
+        "LOCATION": {},
+        "PHONE": {},
+        "SMS": {},
+        "CALENDAR": {},
+        "STORAGE": {},
+        "NOTIFICATION": {
+            "permissionNotGranted": "NOTIFICATION is not allowed",
+            "title": "Notification"
+        },
+        "AUDIO": {}
+    },
+    "screens": {
+        "home": {
+            "title": "Home",
+            "yourBeautyIsOurPride": "Your beauty is our pride",
+            "enterAddressOrCityName":"Enter service or combo",
+            "services":"Services",
+            "combo":"Combo",
+            "bookNow":"Book Now",
+            "open": "Open"
+        },
+        "booking": {
+            "title": "Bookings",
+            "upcoming": "Upcoming",
+            "completed": "Completed",
+            "cancelled": "Cancelled",
+            "cancelBooking": "Cancel Booking",
+            "viewReceipt": "View Receipt"
+        },
+        "search": {
+            "title": "Search"
+        },
+        "profile": {
+            "title": "Profile",
+            "changePassword": "Change Password",
+            "language": "Language",
+            "about": "About",
+            "logout": "Logout"
+        },
+        "login": {
+            "welcomeBack": "Welcome back,",
+            "loginPrompt": "Glad to meet you again!, please login to use the app.",
+            "email": "Email address",
+            "password": "Password",
+            "confirmPassword": "Confirm Password",
+            "forgotPassword": "Forgot password?",
+            "signIn": "Sign In",
+            "signInWithGoogle": "Sign in with google",
+            "signupPrompt": "Don't have an account?",
+            "joinNow": "Join Now",
+            "emtyPhone": "Do not leave phone blank!",
+            "emtyPassword":"Do not leave password blank!",
+            "incorrectAccountOrPassword!":"Incorrect account or password!"
+        },
+        "signUp": {
+            "name": "Name",
+            "mobileNumber": "Mobile number",
+            "TermsOfUse1": "By signing up you agree to our ",
+            "TermsOfUse2": "Term of use and privacy notice",
+            "createAnAccount": "Create an account,",
+            "signUpPrompt": "Please type full information bellow and we can create your account",
+            "alreadyHaveAnAccount": "Already have an account?",
+            "joinWithGoogle": "Join with Google",
+            "succes": "Successfully",
+            "accountCreatedSuccessfully" : "Account created successfully",
+            "accountCreatedFalse": "Operation failed",
+            "false": "Failed",
+            "emtyName":"Do not leave name blank!",
+            "emtyPassword":"Password too short!",
+            "passwordDoesNotMatch":"Password does not match!",
+            "checkPhone":"Must be a phone number!",
+            "registeredPhoneNumber": "Registered phone number!"
+        },
+        "onboarding": {
+            "getStarted": "Get started",
+            "next": "Next",
+            "login": "Login",
+            "step1": "Schedule your Appointment with the best Hair Stylist in your Town.",
+            "step2": "Schedule the Appointment in the best Salon for your Kids.",
+            "step3": "Book yourself a massage therapist to release all your stress.",
+            "step4": "Search for the best parlour near you to fulfil all your beauty needs."
+        },
+        "forgot":{
+            "emailAddress": "Email address",
+            "usePhoneNumber": "Use phone number",
+            "useEmailAddress": "Use email address",
+            "phoneNumber": "Phone number",
+            "sendCode": "Send code",
+            "titleForgot": "Please type your email below and we will give you a OTP code",
+            "forgotPassword": "Forgot your password"
+        },
+
+        "details":{
+            "openToday": "[Open Today]",
+            "views": "views",
+            "paxAvailable": "(6 pax available)",
+            "bookNow": "Book Now",
+            "total": "Total",
+            "about": "About",
+            "readMore": "Read more",
+            "openingHours":"Opening Hours",
+            "mondayFriday":"Monday - Friday",
+            "saturdaySunday":"Saturday - Sunday",
+            "time1":"08:00am - 03:00pm",
+            "time2":"09:00am - 02:00pm",
+            "ourServices":"Our Services",
+            "ourSpecialist":"Our Specialist",
+            "viewAll":"View all",
+            "reviews":"Reviews",
+            "unknownUser":"Unknown User",
+            "showLess":"Show Less",
+            "viewAllServices":"View All Services",
+            "hour":"hour"
+        },
+        "verify": {
+            "verify" : "OTP Verification",
+            "receiveCode": "Didn’t receive a code?",
+            "resend" : "Resend",
+            "titleVerify" : "Verify Your Identity",
+            "subVerify" : "We’ve sent a 4-digit code to ",
+            "subVerify2" : " Please enter it below. ",
+            "continue" : "Continue",
+            "incorrectOtp" : "The code you entered is incorrect. Please try again."
+        },
+        "resetPassword":{
+            "newPassword":"New password",
+            "resetPasswordPrompt":"Now, you can create new password and confirm it below",
+            "confirmNewPassword":"Confirm new password"
+        }
+    },
+    "user": {
+        "userInfo": "User information",
+        "yourFavorite": "Your favorite"
+    },
+    "button" : {
+        "confirm": "Ok",
+        "cancel": "Cancel"
+    },
+    "common": {
+        "warning": "Warning",
+        "doYouWantToLogout": "Do you want to log out?",
+        "back": "Back"
+    },
+    "voucher": {
+        "title": "Voucher",
+        "apply": "Apply",
+        "code": "Code",
+        "enterCode": "Enter code",
+        "expired": "Expired voucher",
+        "redeemed": "Redeemed",
+        "notRedeemed": "Not Redeemed",
+        "invalidCode": "Invalid code",
+        "applySuccess": "Apply success",
+        "applyFailed": "Apply failed"
+    },
+    "booking": {
+        "title": "Booking",
+        "bookingCheckout": "Booking Checkout",
+        "checkout": "Checkout",
+        "date": "Date",
+        "time": "Time",
+        "startTime": "Start Time",
+        "speciaList": "SpeciaList",
+        "duration": "Duration",
+        "customerName": "Customer Name",
+        "customerPhoneNumber": "Customer Phone Number",
+        "submit": "Submit",
+        "success": "Booking success",
+        "failed": "Booking failed",
+        "successMessage": "Booking success, we will contact you soon",
+        "failedMessage": "Booking failed, please try again!",
+        "bookingHistory": "Booking History",
+        "noHistory": "No booking found",
+        "subTotal": "Sub Total",
+        "discount": "Discount",
+        "total": "Total",
+        "service": "Service",
+        "payment": "Payment",
+        "cancelBooking": "Cancel Booking",
+        "cancelBookingSuccess": "Cancel booking success",
+        "cancelBookingFailed": "Cancel booking failed",
+        "timeLocation": "en-US",
+        "upcoming" : "You have not booked an appointment yet.",
+        "completed": "You do not have a completion date yet.",
+        "cancelled": "You have no cancellation schedule yet.",
+        "cancelBookingFailed": "Cancel booking failed",
+        "confirmationTitle": "Booking Confirmation",
+        "goBack": "Go back",
+        "orderInformation": "Order information",
+        "minute": "minute",
+        "success": "Success"
+    },
+    "error": {
+        "error": "Error",
+        "connectionError": "Connection error",
+        "paymentUrlError": "Unable to retrieve the payment URL. Please try again later.",
+        "networkIssue": "There is an issue with the network connection. Please check and try again."
+    },
+    "payment": {
+        "title": "Payment",
+        "payAtSalon": "Pay at salon",
+        "payOnlineNow": "Pay now",
+        "salonDescription": "Secure your booking instantly",
+        "onlineDescription": "Settle payment after your appointment"
+    },
+    "serviceDetail": {
+        "aboutService": "About Service",
+        "hoursService": "hours service",
+        "select&Continue": "Select & Continue"
+    },
+    "selectPaymentMethod": {
+        "selectPaymentMethod": "Select Payment Method",
+        "payNow": "Pay Now"
+    },
+    "specialist":{
+        "title" : "Booking",
+        "speciaList" : "Specialist",
+        "date" : "Date",
+        "time" : "Time",
+        "notes" : "Notes",
+        "notification" : "No day selected.",
+        "send" : "Payment"
+    },
+    
+        "days": {
+          "sunday": "Sunday",
+          "monday": "Monday",
+          "tuesday": "Tuesday",
+          "wednesday": "Wednesday",
+          "thursday": "Thursday",
+          "friday": "Friday",
+          "saturday": "Saturday"
+        }
+      
+      
+}

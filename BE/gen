@@ -1,0 +1,8 @@
+MODULE_NAME=$1
+
+# nest g mo $MODULE_NAME modules
+# nest g co $MODULE_NAME modules
+# nest g s $MODULE_NAME modules
+
+nest g resource $MODULE_NAME modules
+
